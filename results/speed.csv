@@ -1,0 +1,22 @@
+device,model,params_m,batch,precision,ms_per_batch,images_per_s,peak_memory_gb
+NVIDIA A10,ResNet-50,23.5,1,fp32,5.2,192,0.11
+NVIDIA A10,ResNet-50,23.5,64,fp32,125.1,512,0.75
+NVIDIA A10,ResNet-50,23.5,1,fp16,5.3,188,0.15
+NVIDIA A10,ResNet-50,23.5,64,fp16,47.1,1358,0.51
+NVIDIA A10,CLIP ViT-B-32 (изображения),87.8,1,fp32,5.4,184,0.34
+NVIDIA A10,CLIP ViT-B-32 (изображения),87.8,64,fp32,116.7,548,0.48
+NVIDIA A10,CLIP ViT-B-32 (изображения),87.8,1,fp16,6.7,149,0.52
+NVIDIA A10,CLIP ViT-B-32 (изображения),87.8,64,fp16,43.4,1475,0.63
+NVIDIA A10,CLIP ViT-L-14 (изображения),304.0,1,fp32,48.0,21,1.16
+NVIDIA A10,CLIP ViT-L-14 (изображения),304.0,64,fp32,1253.9,51,1.93
+NVIDIA A10,CLIP ViT-L-14 (изображения),304.0,1,fp16,11.9,84,1.72
+NVIDIA A10,CLIP ViT-L-14 (изображения),304.0,64,fp16,296.0,216,2.12
+Apple M4 (MPS),ResNet-50,23.5,1,fp32,8.2,122,
+Apple M4 (MPS),ResNet-50,23.5,64,fp32,446.0,143,
+Apple M4 (MPS),CLIP ViT-B-32 (изображения),87.8,1,fp32,8.2,122,
+Apple M4 (MPS),CLIP ViT-B-32 (изображения),87.8,64,fp32,318.7,201,
+Apple M4 (MPS),CLIP ViT-L-14 (изображения),304.0,1,fp32,85.9,12,
+Apple M4 (MPS),CLIP ViT-L-14 (изображения),304.0,64,fp32,10003.6,6,
+Apple M4 (CPU),ResNet-50,23.5,1,fp32,17.9,56,
+Apple M4 (CPU),CLIP ViT-B-32 (изображения),87.8,1,fp32,19.3,52,
+Apple M4 (CPU),CLIP ViT-L-14 (изображения),304.0,1,fp32,199.9,5,

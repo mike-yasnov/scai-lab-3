@@ -1,0 +1,35 @@
+{
+  "NVIDIA A10": {
+    "device": "NVIDIA A10",
+    "python": "3.12.3",
+    "os": "Linux-6.8.0-110-generic-x86_64-with-glibc2.39",
+    "torch": "2.5.1+cu121",
+    "torchvision": "0.20.1+cu121",
+    "open_clip": "3.3.0",
+    "cpu_count": 38,
+    "ram_gb": 125.9,
+    "cuda": "12.1",
+    "cudnn": 90100,
+    "gpu_memory_gb": 22.0
+  },
+  "Apple M4 (MPS)": {
+    "device": "Apple M4 (MPS)",
+    "python": "3.13.11",
+    "os": "macOS-26.5-arm64-arm-64bit-Mach-O",
+    "torch": "2.15.0",
+    "torchvision": "0.29.2",
+    "open_clip": "3.3.0",
+    "cpu_count": 10,
+    "ram_gb": 16.0
+  },
+  "Apple M4 (CPU)": {
+    "device": "Apple M4 (CPU)",
+    "python": "3.13.11",
+    "os": "macOS-26.5-arm64-arm-64bit-Mach-O",
+    "torch": "2.15.0",
+    "torchvision": "0.29.2",
+    "open_clip": "3.3.0",
+    "cpu_count": 10,
+    "ram_gb": 16.0
+  }
+}

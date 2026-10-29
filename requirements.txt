@@ -1,0 +1,8 @@
+torch>=2.3
+torchvision>=0.18
+open_clip_torch>=2.24
+scikit-learn>=1.4
+matplotlib>=3.8
+pillow>=10.0
+pytest>=8.0
+kaggle>=1.6
